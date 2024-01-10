@@ -12,7 +12,7 @@ ticker_data=yf.Ticker(user_input)
 
 start = st.date_input("Start Date", value= pd.to_datetime("2023-05-31"))
 
-end = st.date_input("Start Date", value= pd.to_datetime("2024-01-01"))
+end = st.date_input("Start Date", value= pd.to_ datetime("2024-01-01"))
 
 hist=ticker_data.history(start=start, end=end)
 
